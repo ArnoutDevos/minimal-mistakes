@@ -1,5 +1,4 @@
 This version of the popular Viterbi algorithm assumes that all the input values are given in log-probabilities. Therefore summations are used instead of multiplications.
-
 ## Viterbi algorithm pseudocode
 
     viterbi(Emission, Trans, Start, End):
@@ -47,4 +46,4 @@ The algorithm takes 2 matrices and 2 vectors as input:
 
 	`P(</s>|l) = End[l]`
 
-Internally, the `NxL` matrix *`Trellis`* stores the values that are caluclated by the Viterbi algorithm. The `(N-1)xL` *`Backpointers`* matrix tracks from which previous label the calculated optimal score for each cell came. Not that *`Backpointers`* has one row less than *`Trellis`* as the last backpointer can be stored in a single variable (`b_next`).
+Internally, the `NxL` matrix *`Trellis`* stores the values that are caluclated by the Viterbi algorithm. The `(N-1)xL` *`Backpointers`* matrix tracks from which previous label the calculated optimal score for each cell came. Note that *`Backpointers`* has one row less than *`Trellis`* as the last backpointer can be stored in a single variable (`b_next`), before starting backpropagation.
