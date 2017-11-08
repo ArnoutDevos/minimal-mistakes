@@ -42,7 +42,7 @@ The algorithm takes 2 matrices and 2 vectors as input:
 - *`Start`* is a `Lx1` vector storing the transition scores of the beginning of a sentence `<s>` to the every label `l`
 
 	`P(l|<s>) = Start[l]`
-- *`End`* is a `Lx1` vector storing the end transition scores of t
+- *`End`* is a `Lx1` vector storing the end transition scores from the label `l` of the last word to the end of the sentence `</s>`
 
 	`P(</s>|l) = End[l]`
 
