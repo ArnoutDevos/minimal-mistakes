@@ -18,11 +18,12 @@ This version of the popular Viterbi algorithm assumes that all the input values 
         		Trellis[i,j] <- Emission[i,j] + max_k(Trans[k,j] + Trellis[i-1,k])
         		Backpointers[i-1,j] <- argmax_k(Trans[k,j] + Trellis[i-1,k])
         
-        # Calculate total score s, last backpointer b_next, add b_next to result
-        s = max_k(End[k] + Trellis[-1,k])	 
+        # Calculate total score s, last backpointer b_next, add b_next to the result Y
+        s = max_k(End[k] + Trellis[-1,k])
         b_next = argmax_k(End[k] + Trellis[N-1,k])
         Y[N-1] <- b_next
         
+        # Do backpropagation for remaining N-1 words
         for word i in {N-2, ..., 0}:
         	b_next <- Backpointers[i, b_next]
         	Y[i] <- b_next
