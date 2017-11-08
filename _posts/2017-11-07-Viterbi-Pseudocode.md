@@ -1,6 +1,6 @@
 This version of the popular Viterbi algorithm assumes that all the input values are given in log-probabilities. Therefore summations are used instead of multiplications.
 
-##Viterbi algorithm pseudocode
+## Viterbi algorithm pseudocode
 
     viterbi(Emission, Trans, Start, End):
         
