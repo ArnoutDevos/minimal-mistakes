@@ -19,8 +19,8 @@ This version of the popular Viterbi algorithm assumes that all the input values 
         		Backpointers[i-1,j] <- argmax_k(Trans[k,j] + Trellis[i-1,k])
         
         # Calculate total score s, last backpointer b_next, add b_next to result
-        s = max_k(End + Trellis[-1,k])	 
-        b_next = argmax_k(End + Trellis[-1,k])
+        s = max_k(End[k] + Trellis[-1,k])	 
+        b_next = argmax_k(End[k] + Trellis[N-1,k])
         Y[N-1] <- b_next
         
         for word i in {N-2, ..., 0}:
