@@ -1,4 +1,4 @@
-This version of the popular Viterbi algorithm assumes that all the input values are given in log-probabilities. Therefore summations are used instead of multiplications.
+This version of the popular Viterbi algorithm assumes that all the input values are given in log-probabilities. Therefore summations are used instead of multiplications. The input sentence has `N` words, and we are trying to assign a label to each word, chosen from a set of `L` labels.
 ## Viterbi algorithm pseudocode
 
     viterbi(Emission, Trans, Start, End):
@@ -46,4 +46,4 @@ The algorithm takes 2 matrices and 2 vectors as input:
 
 	`P(</s>|l) = End[l]`
 
-Internally, the `NxL` matrix *`Trellis`* stores the values that are caluclated by the Viterbi algorithm. The `(N-1)xL` *`Backpointers`* matrix tracks from which previous label the calculated optimal score for each cell came. Note that *`Backpointers`* has one row less than *`Trellis`* as the last backpointer can be stored in a single variable (`b_next`), before starting backpropagation.
+Internally, the `NxL` matrix *`Trellis[i,l]`* stores the score of the *best* sequence from 1 ... i such that l<sub>i</sub> = l. The `(N-1)xL` *`Backpointers`* matrix tracks from which previous label the calculated optimal score for each cell came. Note that *`Backpointers`* has one row less than *`Trellis`* as the last backpointer can be stored in a single variable (`b_next`), before starting backpropagation.
