@@ -34,16 +34,16 @@ This version of the popular Viterbi algorithm assumes that all the input values 
 
 The algorithm takes 2 matrices and 2 vectors as input:
 
-- *`Emission`* is an `NxL` matrix storing the probabily of observing word n, given a label l 
+- *`Emission`* is an `NxL` matrix storing the log-probability of observing word n, given a label l 
 
 	`P(n|l) = Emission[n,l]`
-- *`Trans`* is an `LxL` matrix storing the transition probability from the previous label (Yp) to the current label (Yc)
+- *`Trans`* is an `LxL` matrix storing the transition log-probability from the previous label (Yp) to the current label (Yc)
 	
 	`P(Yc|Yp) = Trans[Yp,Yc]`
-- *`Start`* is a `Lx1` vector storing the transition scores of the beginning of a sentence `<s>` to the every label `l`
+- *`Start`* is a `Lx1` vector storing the transition log-probability of the beginning of a sentence `<s>` to every label `l`
 
 	`P(l|<s>) = Start[l]`
-- *`End`* is a `Lx1` vector storing the end transition scores from the label `l` of the last word to the end of the sentence `</s>`
+- *`End`* is a `Lx1` vector storing the transition log-probability from the label `l` of the last word to the end of the sentence `</s>`
 
 	`P(</s>|l) = End[l]`
 
