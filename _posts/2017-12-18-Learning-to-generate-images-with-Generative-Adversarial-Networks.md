@@ -1,8 +1,9 @@
+---
+mathjax: true
+---
 #Learning to generate images with Generative Adversarial Networks
 
-The technique of Generative Adversarial Networks has gained a lot of popularity since its conception in 2014. They enable us to ...
-
-Generative models try to model the distribution of the data in an explicit way, in the sense that we can easily sample new data points from this model. This is in contrast to discriminative models that try to infer the output from the input. In the class we have seen one classic deep generative model, the Variational Autoencoder (VAE). Here, we will learn another generative model that has risen to prominence in recent years, the Generative Adversarial Network (GAN).
+Generative models try to model the distribution of the data in an explicit way, in the sense that we can easily sample new data points from this model. This is in contrast to discriminative models that try to infer the output from the input. A classic deep generative model is the Variational Autoencoder (VAE). Here, another generative model that has risen to prominence in recent years, the Generative Adversarial Network (GAN), will be discussed.
 
 As the maths of Generative Adversarial Networks is somewhat tedious, a story is often told of a forger and a police to illustrate the idea.
 
