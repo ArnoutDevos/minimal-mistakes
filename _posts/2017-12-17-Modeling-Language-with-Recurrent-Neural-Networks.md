@@ -20,6 +20,9 @@ In the code, `x`  is the input feature vector of size `(N,D)` and `prev_h` is th
 # Backward pass
 In the backward pass of the RNN, all the necessary gradients are calculated to update the weights in both the @@W_x@@ and @@W_h@@ matrices. Here the variables stored in the `meta` variable of the forward pass are used again. For completeness, all gradients are calculated even when they don't necessarily make sense in the first place such as @@db@@.
 
+$$\text{d}W_x = \text{d}next_h(1-next_h^2)$$
+$$\text{d}tanh = \text{d}next_h(1-next_h^2)$$
+
 <script src="https://gist.github.com/ArnoutDevos/29f6afb5b6da3091a7c4696e31f85004.js"></script>
 
 In the code,
