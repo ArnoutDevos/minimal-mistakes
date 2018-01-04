@@ -1,6 +1,6 @@
 ---
 mathjax: true
 title: About me
-permalink: "/about/"
+permalink: /about/
 ---
 Hi this is my personal info :)
