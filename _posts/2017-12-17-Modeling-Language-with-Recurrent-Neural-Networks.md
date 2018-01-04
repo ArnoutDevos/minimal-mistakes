@@ -2,7 +2,7 @@
 mathjax: true
 title: Modeling Language with Recurrent Neural Networks
 ---
-In this post a basic recurrent neural network (RNN), a deep neural network structure, is implemented from scratch in Python. An improved version, the Long Short-Term Memory (LSTM) architecture, that can deal better with long-term information is implemented as well.
+Recurrent neural networks (RNNs), such as long short-term memory networks (LSTMs), serve as a fundamental building block for many sequence learning tasks, including machine translation, language modeling, and question answering. In this post a basic recurrent neural network (RNN), a deep neural network structure, is implemented from scratch in Python. An improved version, the Long Short-Term Memory (LSTM) architecture, that can deal better with long-term information is implemented as well.
 
 ## Recurrent Neural Network (RNN)
 
@@ -24,7 +24,7 @@ $$\text{d}W_x = x^T\text{d}tanh$$
 
 $$\text{d}W_h = h_{prev}^T\text{d}tanh$$
 
-$$\text{d}x = W_x{d}tanh$$
+$$\text{d}x = W_x^T\text{d}tanh$$
 
 $$\text{d}tanh = \text{d}h_{next}(1-h_{next}^2)$$
 
