@@ -236,6 +236,9 @@ compress_html:
   ignore:
     envs: development
 
+# Searching
+search: true
+search_full_content: true
 
 # Defaults
 defaults:
