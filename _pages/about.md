@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-title: "About"
 excerpt: "Arnout Devos"
 ---
 
@@ -11,5 +10,5 @@ Previously I've obtained my master's in EE and Management from [KU Leuven](http:
 # Quick picks (all posts):
 - [Humanoid Imitation learning with GANs](https://arnoutdevos.github.io)
 - [Neural Style transfer implementation](https://arnoutdevos.github.io)
-- [Student Startup Forum 2017](https://arnoutdevos.github.io)
+- [Student Startup Forum 2017](https://arnoutdevos.github.io/assets/html/stst2017/)
 - [High School documents](https://arnoutdevos.github.io)
