@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint"
 
 # Site Settings
 locale                   : "en"
-title                    : "Arnout's personal website."
+title                    : "ArnoutDevos.net"
 title_separator          : "-"
 name                     : "Arnout Devos"
 description              : "Arnout's personal website."
