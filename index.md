@@ -5,7 +5,7 @@ permalink: /
 excerpt: "Arnout Devos"
 ---
 
-I am a master's in CS student at the [University of Southern California (USC)](http://www.usc.edu) where I work on [reinforcement learning](https://uscresl.github.io/humanoid-gail/), advised by [Gaurav Sukathme](http://robotics.usc.edu/~gaurav/). At USC, I am supported by a [Belgian American Educational Foundation (BAEF)](http://www.baef.be) research fellowship.
+I am a Masters in CS student at the [University of Southern California (USC)](http://www.usc.edu) where I work on [reinforcement learning](https://uscresl.github.io/humanoid-gail/), advised by [Gaurav Sukathme](http://robotics.usc.edu/~gaurav/). At USC, I am supported by a [Belgian American Educational Foundation (BAEF)](http://www.baef.be) research fellowship.
 
 Previously I obtained my Bachelors in EECS, Masters in EE and Masters in Management from [KU Leuven](http://www.kuleuven.be) (Belgium). Under [Bart Baesens](https://feb.kuleuven.be/Bart.Baesens) I worked on profit-driven machine learning models for credit scoring, and in [Patrick Reynaert](http://homes.esat.kuleuven.be/~reynaert/)'s lab I worked on [the future of 5G telecommunication circuits](https://lirias.kuleuven.be/bitstream/123456789/555554/1/NORCAS_Arnout.pdf). I have also spent time at [EPFL](https://epfl.ch/) (Switzerland) and [Siemens](https://www.siemens.com/be/en/home.html) (Belgium).
 
