@@ -12,7 +12,6 @@ Previously I obtained my Bachelors in EECS, Masters in EE and Masters in Managem
 In March 2017, I co-organized Academics for Companies' [Student Startup Forum](https://arnoutdevos.github.io/Student-Startup-Forum-2017/).
 
 ### Quick picks (from [blog](https://arnoutdevos.github.io/archive/)):
-- [:runner: Humanoid Imitation learning with GANs](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
-- [:sunrise: Neural Style transfer in TensorFlow](https://arnoutdevos.github.io/A-Neural-Algorithm-of-Artistic-Style/)
-- [:rocket: Student Startup Forum 2017](https://arnoutdevos.github.io/Student-Startup-Forum-2017/)
-- [:school_satchel: High School documents (NL)](http://www.arnoutdevos.net/school.html)
+- Research project: [Humanoid Imitation learning with GANs](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
+- Paper implementation walkthrough: [Neural Style transfer in TensorFlow](https://arnoutdevos.github.io/A-Neural-Algorithm-of-Artistic-Style/)
+- Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)
