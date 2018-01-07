@@ -24,7 +24,7 @@ When measuring neural brain signals, implantable devices require a battery which
 
 Reference: coming soon, work with [Catherine Dehollain](https://people.epfl.ch/cgi-bin/people?id=107331&op=bio&lang=en&cvlang=en) and [Kerim Ture](https://people.epfl.ch/cgi-bin/people?id=222513&op=publications&lang=en&cvlang=en).
 ## 2015
-### Photosensitivity of Silicon Junctionless FETs
+### Photosensitivity of Silicon Junctionless Transistors
 Due to aggressive downscaling of conventional silicon MOSFET transistors problems arise between different doping regions known as short channel effects. As a side-effect of this scaling new devices such as the junctionless transistor (JLT) become functional. In simulation, I analyzed the photosensitivity features of this emerging device.
 
 Reference: [**Devos A.**, Jazaeri F., Sallese J., "Photosensitivity of silicon based junctionless field
