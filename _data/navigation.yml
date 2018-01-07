@@ -1,4 +1,6 @@
 # main links
-# main:
-#  - title: "Startup Forum 2017"
-#    url: https://arnoutdevos.github.io/assets/html/stst2017/
+ main:
+  - title: "Research"
+    url: https://arnoutdevos.github.io/research/
+  - title: "Blog"
+    url: https://arnoutdevos.github.io/archive/
