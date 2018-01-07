@@ -6,10 +6,12 @@ Over the years, I've had many interesting opportunities to perform (independent)
 
 ## 2017
 ### Humanoid Imitation Learning with GANs
+At USC, we are implementing a system which learns locomotion skills for humanoid skeletons from imitation, and all of the supporting infrastructure and data processing necessary to do so. We are extending previous work by DeepMind to imitate directly from video, using Generative Adversarial Imitation Learning.
 
+Reference: [Humanoid Imitation Learning From Diverse Sources](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
 
 ### Profit-driven credit scoring
-*More info coming.*
+Reference: coming soon, work with [Bart Baesens](https://feb.kuleuven.be/Bart.Baesens).
 
 ## 2016
 ### Multiphase 34 GHz Oscillator for 5G
@@ -20,9 +22,10 @@ Reference: [**Devos A.**, Vigilante M., Reynaert P., "Multiphase Digitally Contr
 ### Low-Power Low-Area Transmitter for Neural Implants
 When measuring neural brain signals, implantable devices require a battery which is often too big or low-power designs require a lot of chip area resulting in a very expensive product. I co-designed a low-power low-area transmitter enabling for more accurate and comfortable neural signal measurements.
 
-Reference: coming soon, work with Catherine Dehollain and Kerim Ture.
+Reference: coming soon, work with [Catherine Dehollain](https://people.epfl.ch/cgi-bin/people?id=107331&op=bio&lang=en&cvlang=en) and [Kerim Ture](https://people.epfl.ch/cgi-bin/people?id=222513&op=publications&lang=en&cvlang=en).
 ## 2015
 ### Photosensitivity of Silicon Junctionless FETs
 Due to aggressive downscaling of conventional silicon MOSFET transistors problems arise between different doping regions known as short channel effects. As a side-effect of this scaling new devices such as the junctionless transistor (JLT) become functional. In simulation, I analyzed the photosensitivity features of this emerging device.
 
-Reference: [**Devos A.**, Jazaeri F., Sallese J., "" (not published)](https://arnoutdevos.github.io/assets/pdf/stst2017/)
+Reference: [**Devos A.**, Jazaeri F., Sallese J., "Photosensitivity of silicon based junctionless field
+effect transistors: a simulation study" (not published)](https://arnoutdevos.github.io/assets/pdf/JLT_EPFL_ArnoutDevos.pdf)
