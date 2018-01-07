@@ -6,11 +6,11 @@ Over the years, I've had many interesting opportunities to perform (independent)
 
 ## 2017
 ### Humanoid Imitation Learning with GANs
-At USC, we are implementing a system which learns locomotion skills for humanoid skeletons from imitation, and all of the supporting infrastructure and data processing necessary to do so. We are extending previous work by DeepMind to imitate directly from video, using Generative Adversarial Imitation Learning.
+At USC, we implemented a system which learns locomotion skills for humanoid skeletons from imitation, and all of the supporting infrastructure and data processing necessary to do so. We are extending previous work by DeepMind to imitate directly from video, using Generative Adversarial Imitation Learning.
 
 Reference: [Humanoid Imitation Learning From Diverse Sources](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
 
-### Profit-driven credit scoring
+### Profit-Driven Machine Learning Models for Credit Scoring
 Reference: coming soon, work with [Bart Baesens](https://feb.kuleuven.be/Bart.Baesens).
 
 ## 2016
