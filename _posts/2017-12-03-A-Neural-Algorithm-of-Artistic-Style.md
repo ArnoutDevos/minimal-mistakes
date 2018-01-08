@@ -4,6 +4,8 @@ title: A Neural Algorithm of Artistic Style
 ---
 In this post we will implement the style transfer technique from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). The general idea is to take two images, and produce a new image that reflects the content of one but the artistic "style" of the other. We will do this by first formulating a loss function that matches the content and style of each respective image in the feature space of a deep neural network, and then performing gradient descent on the pixels of the image itself.
 
+A (less verbose) runnable Python file can be found [on GitHub](https://github.com/ArnoutDevos/StyleTransferTensorFlow).
+
 ## Model
 We need to take the advatange of a CNN structure which (implicitly) understands image contents and styles. Rather than training a completely new model from scratch, we will use a pre-trained model to achieve our purpose - called "transfer learning".
 
@@ -61,7 +63,7 @@ Assuming @@G^\ell@@ is the Gram matrix from the feature map of the current image
 
 $$E_\ell = \frac{1}{4 N^2_\ell M^2_\ell} \sum_{i, j} \left(G^\ell_{ij} - A^\ell_{ij}\right)^2$$
 
-In practice we usually compute the style loss at a set of layers @@\mathcal{L}@@ rather than just a single layer @@\ell@@; then the total style loss is the weighted sum of style losses at each layer by @w_\ell@@:
+In practice we usually compute the style loss at a set of layers @@\mathcal{L}@@ rather than just a single layer @@\ell@@; then the total style loss is the weighted sum of style losses at each layer by @@w_\ell@@:
 
 $$L_s = \sum_{\ell \in \mathcal{L}}  w_\ell E_\ell$$
 
