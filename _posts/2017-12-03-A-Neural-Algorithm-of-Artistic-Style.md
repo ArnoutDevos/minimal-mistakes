@@ -16,7 +16,7 @@ In this post we will implement the style transfer technique from the paper [A Ne
 
 A (less verbose) runnable Python file can be found [on GitHub](https://github.com/ArnoutDevos/StyleTransferTensorFlow).
 
-% include gallery caption="Two input images and one output image of the Style Transfer algorithm after 200 iterations." %}
+{% include gallery caption="Two input images and one output image of the Style Transfer algorithm after 200 iterations." %}
 
 ## Model
 We need to take the advatange of a CNN structure which (implicitly) understands image contents and styles. Rather than training a completely new model from scratch, we will use a pre-trained model to achieve our purpose - called "transfer learning".
