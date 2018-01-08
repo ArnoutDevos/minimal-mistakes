@@ -1,10 +1,22 @@
 ---
+gallery:
+  - url: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/images/muse.jpg
+    image_path: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/images/muse.jpg
+    title: "Style image: Muse"
+  - url: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/images/hollywood_sign.jpg
+    image_path: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/images/hollywood_sign.jpg
+    title: "Content image: Hollywood sign"
+  - url: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/output/200.png
+    image_path: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/output/200.png
+    title: "Result of StyleTransfer after 200 iterations"
 mathjax: true
 title: A Neural Algorithm of Artistic Style
 ---
 In this post we will implement the style transfer technique from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). The general idea is to take two images, and produce a new image that reflects the content of one but the artistic "style" of the other. We will do this by first formulating a loss function that matches the content and style of each respective image in the feature space of a deep neural network, and then performing gradient descent on the pixels of the image itself.
 
 A (less verbose) runnable Python file can be found [on GitHub](https://github.com/ArnoutDevos/StyleTransferTensorFlow).
+
+% include gallery caption="Two input images and one output image of the Style Transfer algorithm after 200 iterations." %}
 
 ## Model
 We need to take the advatange of a CNN structure which (implicitly) understands image contents and styles. Rather than training a completely new model from scratch, we will use a pre-trained model to achieve our purpose - called "transfer learning".
