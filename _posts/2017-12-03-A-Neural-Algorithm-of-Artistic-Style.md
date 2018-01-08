@@ -30,7 +30,7 @@ The `load_vgg_model()` function returns a model for the purpose of 'painting' th
 <script src="https://gist.github.com/ArnoutDevos/fb9654a0e9908f7e320046dfee36791a.js"></script>
 
 ## Input images
-We need to define some constants for the inputs and we will be uisng RGB images with a 640 x 480 resolution, but you can easily modify the code to accommodate different sizes. Because of the mean substraction, that messes up the image visually,mentioned in the previous section, two helper functions `load_image()` and `recover_image()` are used.
+We need to define some constants for the inputs and we will be using RGB images with a 640 x 480 resolution, but you can easily modify the code to accommodate different sizes. Because of the mean substraction, that messes up the image visually, two helper functions `load_image()` and `recover_image()` are used.
 
 <script src="https://gist.github.com/ArnoutDevos/e2e3a1734b81930f0719138bd156fd6b.js"></script>
 
