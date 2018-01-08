@@ -68,14 +68,19 @@ In our case it is a summation from conv1_1 (lower layer) to conv5_1 (higher laye
 
 <script src="https://gist.github.com/ArnoutDevos/0cb0328aa09633d0abb057de7362234d.js"></script>
 
+## Building a TensorFlow session and model
+<script src="https://gist.github.com/ArnoutDevos/f42414e971d159a42e34255b35369701.js"></script>
+
 ## Total loss
-L=αLc+βLs
+The last thing we need to do is the most important: define what loss function to optimize. The total loss function is a weighted sum of the content loss and style loss by @@\alpha@@ and @@\beta@@ respectively.
+
 $$L = \alpha L_c + \beta L_s$$
 
-CODE total_loss.py
-
-## Building a TensorFlow session and model
-CODE tfsess_model.py
+<script src="https://gist.github.com/ArnoutDevos/92c9a9a096762a5bf668e0889840d7e6.js"></script>
 
 ## Run
-Now we run the model which outputs the painted image every 100 iterations. You can find those intemediate results under output/ folder. Notice on CPU it usually takes almost an hour to run 1000 iterations. Take your time!
+Now we run the model which saves the resulting image every 50 iterations. You can find those intermediate images in the `output/` folder.
+
+<script src="https://gist.github.com/ArnoutDevos/ca35f2f5ac8c860f3a171eba113fa9c5.js"></script>
+
+Note on that it usually takes almost half an hour to run 500 iterations on a 2015 Macbook Pro 15" base model CPU. Personally I preferred using Google Cloud Platform which speeded up calculations a lot.
