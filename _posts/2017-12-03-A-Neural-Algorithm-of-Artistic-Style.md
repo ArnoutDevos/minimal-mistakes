@@ -38,34 +38,34 @@ Now we can check by visualizing images we generated. Keep in mind that `noise_ra
 Once we generate a new image, we would like to evaluate by how much it maintains contents while approaching the target style. This can be defined by a loss function. The loss function is a weighted sum of two terms: *content loss* and *style loss*.
 
 ## Content Loss
-Let's first write the content loss function of equation (1) from the paper. Content loss measures how much the feature map of the generated image differs from the feature map of the source image. We only care about the content representation of one layer of the network (say, layer @@l@@), that has feature maps @@A^l\inR^{1xH_lxW_lxN_l}@@Aℓ∈ℝ1×Hℓ×Wℓ×Nℓ. @@N_l@@ is the number of filters/channels in layer @@l@@, @@H_l@@ and @@W_l@@ are the height and width. We will work with reshaped versions of these feature maps that combine all spatial positions into one dimension. Let @@F_l \in R^{M_lxN_l}@@Fℓ∈ℝMℓ×Nℓ be the feature map for the current image and @@P_l \in R^{M_lxN_l}@@Pℓ∈ℝMℓ×Nℓ be the feature map for the content source image where @@M_l = H_l x W_l}@@Mℓ=Hℓ×Wℓ is the number of elements in each feature map. Each row of @@F_l@@Fℓ or @@P_l@@Pℓ represents the vectorized activations of a particular filter, convolved over all positions of the image.
+Let's first write the content loss function of equation (1) from the paper. Content loss measures how much the feature map of the generated image differs from the feature map of the source image. We only care about the content representation of one layer of the network (say, layer @@\ell@@), that has feature maps @@A^\ell \in \mathbb{R}^{1 \times H_\ell \times W_\ell \times N_\ell}@@. @@N_\ell@@ is the number of filters/channels in layer @@\ell@@, @@H_\ell@@ and @@W_\ell@@ are the height and width. We will work with reshaped versions of these feature maps that combine all spatial positions into one dimension. Let @@F^\ell \in \mathbb{R}^{M_\ell \times N_\ell}@@ be the feature map for the current image and @@P^\ell \in \mathbb{R}^{M_\ell \times N_\ell}@@ be the feature map for the content source image where @@M_\ell=H_\ell\times W_\ell@@ is the number of elements in each feature map. Each row of @@F^\ell@@ or @@P^\ell@@ represents the vectorized activations of a particular filter, convolved over all positions of the image.
 
-The content loss is then given by:
+Then the content loss is given by:
 
-$$L_c = \frac{1}{2}\Sigma_{i,j}(F_{ij}^l - P_{ij}^l)^2$$
+$$L_c = \frac{1}{2} \sum_{i,j} (F_{ij}^{\ell} - P_{ij}^{\ell})^2$$
 
 We are only concerned with the "conv4_2" layer of the model.
 
 <script src="https://gist.github.com/ArnoutDevos/6bcc3e5f5baff5703aee969150c7acfc.js"></script>
 
 ## Style Loss
-Now we can tackle the style loss of equation (5) from the paper. For a given layer ℓ, the style loss is defined as follows:
+Now we can tackle the style loss of equation (5) from the paper. For a given layer @@\ell@@, the style loss is defined as follows:
 
 First, compute the Gram matrix G which represents the correlations between the responses of each filter, where F is as above. The Gram matrix is an approximation to the covariance matrix -- we want the activation statistics of our generated image to match the activation statistics of our style image, and matching the (approximate) covariance is one way to do that. There are a variety of ways you could do this, but the Gram matrix is nice because it's easy to compute and in practice shows good results.
 
-Given a feature map Fℓ of shape (1,@@M_l@@Mℓ,@@N_l@@Nℓ), the Gram matrix has shape (1,@@N_l@@Nℓ,@@N_l@@Nℓ) and its elements are given by:
+Given a feature map @@F^\ell@@ of shape @@(1, M_\ell,  N_\ell)@@, the Gram matrix has shape @@(1, N_\ell, N_\ell)@@ and its elements are given by:
 
-Gℓij=∑kFℓikFℓjk
-Assuming Gℓ is the Gram matrix from the feature map of the current image, Aℓ is the Gram Matrix from the feature map of the source style image, then the style loss for the layer ℓ is simply the Euclidean distance between the two Gram matrices:
+$$G_{ij}^\ell  = \sum_k F^{\ell}_{ik} F^{\ell}_{jk}$$
 
-Eℓ=14N2ℓM2ℓ∑i,j(Gℓij−Aℓij)2
-In practice we usually compute the style loss at a set of layers  rather than just a single layer ℓ; then the total style loss is the weighted sum of style losses at each layer by wℓ:
+Assuming @@G^\ell@@ is the Gram matrix from the feature map of the current image, @@A^\ell@@ is the Gram Matrix from the feature map of the source style image, then the style loss for the layer @@\ell@@ is simply the Euclidean distance between the two Gram matrices:
 
-Ls=∑ℓ∈wℓEℓ
-$$L_s=\Sigma$$
+$$E_\ell = \frac{1}{4 N^2_\ell M^2_\ell} \sum_{i, j} \left(G^\ell_{ij} - A^\ell_{ij}\right)^2$$
 
-In our case it is a summation from conv1_1 (lower layer) to conv5_1 (higher layer). Intuitively, the style loss across multiple layers captures lower level features (hard strokes, points, etc) to higher level features (styles, patterns, even objects).
+In practice we usually compute the style loss at a set of layers @@\mathcal{L}@@ rather than just a single layer @@\ell@@; then the total style loss is the weighted sum of style losses at each layer by @w_\ell@@:
 
+$$L_s = \sum_{\ell \in \mathcal{L}}  w_\ell E_\ell$$
+
+In our case it is a summation from conv1_1 (lower layer) to conv5_1 (higher layer). Intuitively, the style loss across multiple layers captures lower level features (hard strokes, points, etc) to higher level features (styles, patterns, even objects). 
 <script src="https://gist.github.com/ArnoutDevos/0cb0328aa09633d0abb057de7362234d.js"></script>
 
 ## Building a TensorFlow session and model
