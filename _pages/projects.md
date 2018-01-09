@@ -1,5 +1,5 @@
 ---
-permalink: /research/
+permalink: /projects/
 title: Projects
 ---
 {% for post in site.categories.Project %}
