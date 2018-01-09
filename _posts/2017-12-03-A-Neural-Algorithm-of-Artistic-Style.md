@@ -10,7 +10,7 @@ gallery:
     image_path: https://raw.githubusercontent.com/ArnoutDevos/StyleTransferTensorFlow/master/output/200.png
     title: "Result of StyleTransfer after 200 iterations"
 mathjax: true
-categories: Project
+categories: [,Project,TensorFlow,Python]
 title: A Neural Algorithm of Artistic Style
 ---
 In this post we will implement the style transfer technique from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). The general idea is to take two images, and produce a new image that reflects the content of one but the artistic "style" of the other. We will do this by first formulating a loss function that matches the content and style of each respective image in the feature space of a deep neural network, and then performing gradient descent on the pixels of the image itself.
