@@ -1,6 +1,9 @@
 # main links
  main:
-  - title: "Research"
-    url: https://arnoutdevos.github.io/research/
   - title: "Blog"
     url: https://arnoutdevos.github.io/archive/
+  - title: "Projects"
+    url: https://arnoutdevos.github.io/projects/
+  - title: "Research"
+    url: https://arnoutdevos.github.io/research/
+  
