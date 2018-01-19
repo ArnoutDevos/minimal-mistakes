@@ -16,16 +16,25 @@ In March 2017, I co-organized Academics for Companies' [Student Startup Forum](h
 - Paper implementation walkthrough: [Neural Style transfer in TensorFlow](https://arnoutdevos.github.io/A-Neural-Algorithm-of-Artistic-Style/)
 - Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)
 
-### Organizations
+<center>
+###### Current organizations
 <a href="https://www.usc.edu">
-<img border="0" alt="USC" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/USC-logo.png" height="50">
+<img border="0" alt="USC" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/USC-logo.png" height="25">
 </a>
+<a href="https://www.baef.be">
+<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/BAEF-logo.jpg" height="25">
+</a>
+###### Previously affiliated with
 <a href="https://www.epfl.ch">
-<img border="0" alt="EPFL" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/EPFL-logo.png" height="50">
+<img border="0" alt="EPFL" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/EPFL-logo.png" height="25">
 </a>
-<a href="https://www.kuleuven.be">
-<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/KULeuven-logo.png" height="50">
+<a href="https://www.kuleuven.be/english/">
+<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/KULeuven-logo.png" height="25">
 </a>
-<a href="https://www.kuleuven.be">
-<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/Siemens-logo.png" height="50">
+<a href="https://www.siemens.be">
+<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/Siemens-logo.png" height="25">
 </a>
+<a href="https://www.afcleuven.be">
+<img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/AFC-logo.png" height="25">
+</a>
+</center>
