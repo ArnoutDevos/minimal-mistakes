@@ -98,4 +98,4 @@ Now we run the model which saves the resulting image every 50 iterations. You ca
 
 <script src="https://gist.github.com/ArnoutDevos/ca35f2f5ac8c860f3a171eba113fa9c5.js"></script>
 
-Note on that it usually takes almost half an hour to run 500 iterations on a 2015 Macbook Pro 15" base model CPU. Personally I preferred using Google Cloud Platform which speeded up calculations a lot.
+Note on that it usually takes almost half an hour to run just 50 iterations on a 2015 Macbook Pro 15" base model CPU. Personally I preferred using Google Cloud Platform which speeded up calculations a lot (50 iterations took me 5 minutes instead).
