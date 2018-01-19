@@ -15,8 +15,7 @@ In March 2017, I co-organized Academics for Companies' [Student Startup Forum](h
 - Research project: [Humanoid Imitation learning with GANs](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
 - Paper implementation walkthrough: [Neural Style transfer in TensorFlow](https://arnoutdevos.github.io/A-Neural-Algorithm-of-Artistic-Style/)
 - Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)
-
-<center>
+<p style="text-align: center;">
 ###### Current organizations
 <a href="https://www.usc.edu">
 <img border="0" alt="USC" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/USC-logo.png" height="25">
@@ -37,4 +36,4 @@ In March 2017, I co-organized Academics for Companies' [Student Startup Forum](h
 <a href="https://www.afcleuven.be">
 <img border="0" alt="KU Leuven" src="https://github.com/ArnoutDevos/ArnoutDevos.github.io/raw/master/assets/images/AFC-logo.png" height="25">
 </a>
-</center>
+</p>
