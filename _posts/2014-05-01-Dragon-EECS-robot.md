@@ -3,12 +3,12 @@ mathjax: false
 tags: project engineering KULeuven
 title: Dragon self-balancing two-wheel robot RF link
 ---
-In 2013, [Jona Beysens](https://www.kuleuven.be/wieiswie/en/person/00101844), [Andreas Van Barel](https://www.kuleuven.be/wieiswie/en/person/00104326), and I were concerned with constructing a radiofrequency (RF) link from scratch on a Xilinx FPGA, using MATLAB Simulink for our Bachelor's in EECS project. Our design progress can be seen in the following two posters:
+In 2013, [Jona Beysens](https://www.kuleuven.be/wieiswie/en/person/00101844), [Andreas Van Barel](https://www.kuleuven.be/wieiswie/en/person/00104326), and I were concerned with constructing a radiofrequency (RF) link from scratch on a Xilinx FPGA, using MATLAB Simulink for our Bachelor's in EECS project. Our design and its progress can be seen in the following two posters:
 
 <figure class="half">
     <a href="https://arnoutdevos.github.io/assets/pdf/dragonrfA1.pdf"><img src="https://raw.githubusercontent.com/ArnoutDevos/ArnoutDevos.github.io/master/assets/images/DragonPoster1.png" height="150"></a>
     <a href="https://arnoutdevos.github.io/assets/pdf/dragonrfA1Testing.pdf"><img src="https://raw.githubusercontent.com/ArnoutDevos/ArnoutDevos.github.io/master/assets/images/DragonPoster2.png" height="150"></a>
-    <figcaption><i>KU Stealth</i>'s mirror-finish design and in-action image.</figcaption>
+    <figcaption>Two posters describing our design and its progress.</figcaption>
 </figure>
 
 Our RF link was part of a bigger project with 20 students to build a two-wheel self-balancing robot (similar to a segway). The final robot is shown in the video below:
