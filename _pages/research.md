@@ -4,14 +4,15 @@ title: Research
 ---
 Over the years, I've had many interesting opportunities to perform (independent) research. Currently my field of interest is Machine Learning, whereas previously I did some work in Micro- and Nanoelectronics.
 
+## 2018
+### Profit-Driven Machine Learning Models for Credit Scoring
+Accepted for publication at the [2018 IEEE Data Science Workshop](https://2018.ieeedatascience.org/).
+
 ## 2017
 ### Humanoid Imitation Learning with GANs
 At USC, we implemented a system which learns locomotion skills for humanoid skeletons from imitation, and all of the supporting infrastructure and data processing necessary to do so. We are extending previous work by DeepMind to imitate directly from video, using Generative Adversarial Imitation Learning.
 
 Reference: [Humanoid Imitation Learning From Diverse Sources](https://arnoutdevos.github.io/Humanoid-Imitation-Learning-from-Diverse-Sources/)
-
-### Profit-Driven Machine Learning Models for Credit Scoring
-Reference: coming soon, work with [Bart Baesens](https://feb.kuleuven.be/Bart.Baesens).
 
 ## 2016
 ### Multiphase 34 GHz Oscillator for 5G
