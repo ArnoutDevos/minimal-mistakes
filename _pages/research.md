@@ -6,7 +6,9 @@ Over the years, I've had many interesting opportunities to perform (independent)
 
 ## 2018
 ### Profit-Driven Machine Learning Models for Credit Scoring
-Accepted for publication at the [2018 IEEE Data Science Workshop](https://2018.ieeedatascience.org/).
+The recently proposed expected maximum profit (EMP) measure for credit scoring allows to select the most profitable
+classifier. Taking the idea of the EMP one step further, it is desirable to integrate the measure into model construction, and thus obtain a profit maximizing model. The proposed implemented technique shows a significant improvement compared to regular maximum likelihood based logistic regression models on real-life data sets in terms of total profit, which is the ultimate goal for most businesses.
+Reference: Presented at the [2018 IEEE Data Science Workshop](https://2018.ieeedatascience.org/).
 
 ## 2017
 ### Humanoid Imitation Learning with GANs
