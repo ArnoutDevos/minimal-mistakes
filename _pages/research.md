@@ -25,7 +25,7 @@ Reference: [**Devos A.**, Vigilante M., Reynaert P., "Multiphase Digitally Contr
 ### Low-Power Low-Area Transmitter for Neural Implants
 When measuring neural brain signals, implantable devices require a battery which is often too big or low-power designs require a lot of chip area resulting in a very expensive product. I co-designed a low-power low-area transmitter enabling for more accurate and comfortable neural signal measurements.
 
-Reference: coming soon, work with [Catherine Dehollain](https://people.epfl.ch/cgi-bin/people?id=107331&op=bio&lang=en&cvlang=en) and [Kerim Ture](https://people.epfl.ch/cgi-bin/people?id=222513&op=publications&lang=en&cvlang=en).
+Reference: [K. Ture, **A. Devos**, F. Maloberti and C. Dehollain, "Area and Power Efficient Ultra-Wideband Transmitter Based On Active Inductor," in IEEE Transactions on Circuits and Systems II: Express Briefs.](https://ieeexplore.ieee.org/document/8404131/).
 ## 2015
 ### Photosensitivity of Silicon Junctionless Transistors
 Due to aggressive downscaling of conventional silicon MOSFET transistors problems arise between different doping regions known as short channel effects. As a side-effect of this scaling new devices such as the junctionless transistor (JLT) become functional. In simulation, I analyzed the photosensitivity features of this emerging device.
