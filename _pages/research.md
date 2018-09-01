@@ -8,7 +8,8 @@ Over the years, I've had many interesting opportunities to perform (independent)
 ### Profit-Driven Machine Learning Models for Credit Scoring
 The recently proposed expected maximum profit (EMP) measure for credit scoring allows to select the most profitable
 classifier. Taking the idea of the EMP one step further, it is desirable to integrate the measure into model construction, and thus obtain a profit maximizing model. The proposed implemented technique shows a significant improvement compared to regular maximum likelihood based logistic regression models on real-life data sets in terms of total profit, which is the ultimate goal for most businesses.
-Reference: Presented at the [2018 IEEE Data Science Workshop](https://2018.ieeedatascience.org/).
+
+Reference: [**A. Devos**, J. Dhondt, E. Stripling, B. Baesens, S. v. Broucke and G. Sukhatme, "Profit Maximizing Logistic Regression Modeling for Credit Scoring" IEEE Data Science Workshop (DSW), Lausanne, Switzerland, 2018, pp. 125-129.](http://ieeexplore.ieee.org/document/8439113/)
 
 ## 2017
 ### Humanoid Imitation Learning with GANs
