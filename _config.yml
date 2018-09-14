@@ -85,8 +85,8 @@ analytics:
 author:
   name             : "Arnout Devos"
   avatar           : "/assets/images/Arnout.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Interested in Machine Learning, Deep Reinforcement Learning, Natural Language Processing and Entrepreneurship"
-  location         : "Los Angeles, USA"
+  bio              : "Interested in Machine Learning and Entrepreneurship"
+  location         : "Switzerland"
   email            :
   uri              :
   bitbucket        :
