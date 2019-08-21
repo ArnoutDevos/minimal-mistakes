@@ -11,10 +11,8 @@ Previously, I obtained my MS in CS at [USC](http://www.usc.edu), as a [BAEF](htt
 In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://arnoutdevos.github.io/Student-Startup-Forum-2017/).
 
 ## News
-
+- :school_satchel: passed my EPFL Computer Science quals
 - :microphone: May 2019: talk at the Workshop on Reproducibility in ML (ICLR 2019) [[video](<https://slideslive.com/38915881/reproducing-metalearning-with-differentiable-closedform-solvers>)]
-
-- :rocket: Feb 2019: 1st place at Techstars Startup Weekend Lausanne 2019
 - :microphone: Jan 2019: talk at the Applied ML Days [[slides](https://www.slideshare.net/ArnoutDevos/profit-maximizing-machine-learning-amld2019)]
 - :computer: Nov 2019: 1st place in Computer Vision challenge @LauzHack 2018 [[devpost](<https://devpost.com/software/reducing-food-waste-with-hungry-students>)]
 
