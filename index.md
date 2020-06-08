@@ -7,14 +7,18 @@ excerpt: "Arnout Devos"
 
 Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch).
 
-Previously, I obtained my MS in CS at [USC](http://www.usc.edu), as a [BAEF](http://www.baef.be) fellow, and MEng/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/).
+My research interests include meta-learning, few-shot learning, and unsupervised representations.
+
+Previously, I obtained my MS in CS at [USC](http://www.usc.edu), as a [BAEF](http://www.baef.be) fellow, and MS/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/).
 In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://arnoutdevos.github.io/Student-Startup-Forum-2017/).
 
+<!---
 ## News
 - :school_satchel: Aug 2019: passed my EPFL Computer Science PhD quals
 - :microphone: May 2019: talk at the Workshop on Reproducibility in ML (ICLR 2019) [[video](<https://slideslive.com/38915881/reproducing-metalearning-with-differentiable-closedform-solvers>)]
 - :microphone: Jan 2019: talk at the Applied ML Days [[slides](https://www.slideshare.net/ArnoutDevos/profit-maximizing-machine-learning-amld2019)]
 - :computer: Nov 2019: 1st place in Computer Vision challenge @LauzHack 2018 [[devpost](<https://devpost.com/software/reducing-food-waste-with-hungry-students>)]
+--->
 
 ## Research (see <a href="https://scholar.google.be/citations?user=S_6zsEwAAAAJ" style="text-decoration: none">google scholar</a> for up-to-date list)
 
