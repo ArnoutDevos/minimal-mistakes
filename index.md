@@ -23,20 +23,20 @@ In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://
 **Preprints**
 - [**A meta-learning approach for genomic survival analysis**](<https://www.biorxiv.org/content/10.1101/2020.04.21.053918v1.abstract>)  
   *Yeping Lina Qiu, Hong Zheng, <u>Arnout Devos</u>, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
-  BiorXiv 2020
+  BiorXiv, 2020
 
 - [**Subspace Networks for Few-shot Classification**](<https://arxiv.org/abs/1905.13613>)  
   *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
-  arXiv 2019
+  arXiv, 2019
 
 **Publications**
 
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
   *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
-  ICLR 2019 Workshop on RML & ReScience journal 2019
+  ICLR RML Workshop, 2019 on  & ReScience journal, 2019
 - [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
   *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
-  IEEE DSW 2018
+  IEEE DSW, 2018
 
 
 
