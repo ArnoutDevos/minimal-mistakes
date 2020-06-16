@@ -43,7 +43,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
   ReScience Journal, 2019 & ICLR Workshop on Reproducibility in ML, 2019
 - [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
   *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
-  IEEE DSW, 2018
+  IEEE Data Science Workshop proceedings, 2018
 
 
 
