@@ -30,13 +30,13 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 
 **Publications**
 
-&ast; Denotes equal contribution
+\* Denotes equal contribution
 
 - [**Subspace Networks for Few-shot Classification**](<https://arxiv.org/abs/1905.13613>)  
   *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 - **Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**  
-  *Carlos Medina&ast;, <u>Arnout Devos</u>&ast;, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  *Carlos Medina\*, <u>Arnout Devos</u>\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
   *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
