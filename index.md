@@ -5,10 +5,13 @@ permalink: /
 excerpt: "Arnout Devos"
 ---
 
-Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland. My research interests include meta-learning, few-shot learning, and unsupervised representations.
+Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland. My research interests include automating machine learning, meta-learning, and few-shot learning.
 
 Previously, I obtained my MS in CS at [USC](http://www.usc.edu), as a [BAEF](http://www.baef.be) fellow, and MS/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/).
 In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://arnoutdevos.github.io/Student-Startup-Forum-2017/).
+
+#### Contact me
+Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos@epfl.ch)
 
 <!---
 ## News
@@ -25,15 +28,19 @@ In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://
   *Yeping Lina Qiu, Hong Zheng, <u>Arnout Devos</u>, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
   BiorXiv, 2020
 
-- [**Subspace Networks for Few-shot Classification**](<https://arxiv.org/abs/1905.13613>)  
-  *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
-  arXiv, 2019
-
 **Publications**
 
+&ast; Denotes equal contribution
+
+- [**Subspace Networks for Few-shot Classification**](<https://arxiv.org/abs/1905.13613>)  
+  *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  ICML Workshop on Automated Machine Learning (AutoML), 2020
+- **Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**  
+  *Carlos Medina&ast;, <u>Arnout Devos</u>&ast;, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  ICML Workshop on Automated Machine Learning (AutoML), 2020
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
   *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
-  ICLR RML Workshop, 2019 on  & ReScience journal, 2019
+  ReScience Journal, 2019 & ICLR Workshop on Reproducibility in ML, 2019
 - [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
   *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
   IEEE DSW, 2018
