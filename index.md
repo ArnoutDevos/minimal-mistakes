@@ -32,7 +32,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 
 \* Denotes equal contribution
 
-- [**Subspace Networks for Few-shot Classification**](<https://arxiv.org/abs/1905.13613>)  
+- [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
   *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 - **Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**  
