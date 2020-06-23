@@ -35,7 +35,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 - [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
   *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
-- **Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**  
+- [**Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**](<https://arxiv.org/abs/2006.11325>)
   *Carlos Medina\*, <u>Arnout Devos</u>\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
