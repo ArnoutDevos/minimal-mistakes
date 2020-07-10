@@ -5,9 +5,9 @@ permalink: /
 excerpt: "Arnout Devos"
 ---
 
-Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland. My research interests include automating machine learning, meta-learning, and few-shot learning.
+Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland :switzerland:. My research interests include automating machine learning, meta-learning, and few-shot learning.
 
-Previously, I obtained my MS in CS at [USC](http://www.usc.edu), as a [BAEF](http://www.baef.be) fellow, and MS/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/).
+Previously, I obtained my MS in CS at [USC](http://www.usc.edu) :us:, as a [BAEF](http://www.baef.be) fellow, and MS/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/) :belgium:.
 In March 2017, I co-organized Belgium's largest [Student Startup Forum](https://arnoutdevos.github.io/Student-Startup-Forum-2017/).
 
 ### Contact me
