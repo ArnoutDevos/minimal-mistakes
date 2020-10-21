@@ -47,4 +47,4 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 
 ## Miscellaneous
-[Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)]
+Sharing is caring: pre-2011 [High School documents SMCB (Dutch)](http://www.arnoutdevos.net/school.html)
