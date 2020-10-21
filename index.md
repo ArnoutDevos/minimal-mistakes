@@ -22,15 +22,22 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 --->
 
 ## Research (see <a href="https://scholar.google.be/citations?user=S_6zsEwAAAAJ" style="text-decoration: none">google scholar</a> for up-to-date list)
-
-**Preprints**
-- [**A meta-learning approach for genomic survival analysis**](<https://www.biorxiv.org/content/10.1101/2020.04.21.053918v1.abstract>)  
-  *Yeping Lina Qiu, Hong Zheng, <u>Arnout Devos</u>, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
-  BiorXiv, 2020
-
-**Publications**
-
 \* Denotes equal contribution
+
+**Conference & Journal Publications**
+
+- [**A meta-learning approach for genomic survival analysis**](<https://www.biorxiv.org/content/10.1101/2020.04.21.053918v1.abstract>)  
+  *Yeping Lina Qiu, [Hong Zheng](https://littlebitofdata.com/), <u>Arnout Devos</u>, Heather Selby, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
+  (Accepted to appear in) Nature Communications, 2020
+
+- [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
+  *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  ReScience Journal, 2019
+- [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
+  *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
+  IEEE Data Science Workshop proceedings, 2018
+
+**Workshop Papers**
 
 - [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
   *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
@@ -38,13 +45,5 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 - [**Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**](<https://arxiv.org/abs/2006.11325>)
   *Carlos Medina\*, <u>Arnout Devos</u>\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
-- [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
-  *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
-  ReScience Journal, 2019 & ICLR Workshop on Reproducibility in ML, 2019
-- [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
-  *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
-  IEEE Data Science Workshop proceedings, 2018
-
-
 
 [Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)]
