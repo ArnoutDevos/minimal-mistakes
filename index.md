@@ -46,4 +46,5 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
   *Carlos Medina\*, <u>Arnout Devos</u>\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 
+## Miscellaneous
 [Sharing is caring: [High School documents (NL)](http://www.arnoutdevos.net/school.html)]
