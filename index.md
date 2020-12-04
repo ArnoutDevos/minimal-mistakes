@@ -27,23 +27,26 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 **Conference & Journal Publications**
 
 - [**A meta-learning approach for genomic survival analysis**](<https://www.biorxiv.org/content/10.1101/2020.04.21.053918v1.abstract>)  
-  *Yeping Lina Qiu, [Hong Zheng](https://littlebitofdata.com/), <u>Arnout Devos</u>, Heather Selby, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
+  *Yeping Lina Qiu, [Hong Zheng](https://littlebitofdata.com/), **Arnout Devos**, Heather Selby, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
   (Accepted to appear in) Nature Communications, 2020
 
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
-  *<u>Arnout Devos</u>\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  ***Arnout Devos**\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ReScience Journal, 2019
 - [**Profit Maximizing Logistic Regression Modeling for Credit Scoring**](<https://ieeexplore.ieee.org/abstract/document/8439113>)  
-  *<u>Arnout Devos</u>, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
+  ***Arnout Devos**, Jakob Dhondt, Eugen Stripling, [Bart Baesens](https://www.bartbaesens.com/), [Seppe vanden Broucke](http://seppe.net/), [Gaurav Sukhatme](http://robotics.usc.edu/~gaurav/)*  
   IEEE Data Science Workshop proceedings, 2018
 
 **Workshop Papers**
 
+- [**Model-Agnostic Learning to Meta-Learn**](<http://preregister.science/papers_20neurips/42_paper.pdf>)  
+  ***Arnout Devos**\*, [Yatin Dandi](https://yatindandi.github.io/)\**  
+  NeurIPS Pre-registration Workshop, 2020
 - [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
-  *<u>Arnout Devos</u>, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  ***Arnout Devos**, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 - [**Self-Supervised Prototypical Transfer Learning for Few-Shot Classification**](<https://arxiv.org/abs/2006.11325>)  
-  *Carlos Medina\*, <u>Arnout Devos</u>\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
+  *Carlos Medina\*, **Arnout Devos**\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
   ICML Workshop on Automated Machine Learning (AutoML), 2020
 
 ## Miscellaneous
