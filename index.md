@@ -39,7 +39,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 
 **Workshop Papers**
 
-- [**Model-Agnostic Learning to Meta-Learn**](<http://preregister.science/papers_20neurips/42_paper.pdf>)  
+- [**Model-Agnostic Learning to Meta-Learn**](<https://arxiv.org/abs/2012.02684>)  
   ***Arnout Devos**\*, [Yatin Dandi](https://yatindandi.github.io/)\**  
   NeurIPS Pre-registration Workshop, 2020
 - [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
