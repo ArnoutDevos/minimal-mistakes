@@ -5,7 +5,7 @@ permalink: /
 excerpt: "Arnout Devos"
 ---
 
-Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland :switzerland:. My research interests include automating machine learning, meta-learning, and few-shot learning.
+Hi, I'm Arnout, a PhD student in Computer Science at [EPFL](http://ic.epfl.ch) in Lausanne, Switzerland :switzerland:. My research interests include few-shot learning and automating machine learning.
 
 Previously, I obtained my MS in CS at [USC](http://www.usc.edu) :us:, as a [BAEF](http://www.baef.be) fellow, and MS/BS in EECS at [KU Leuven](https://www.kuleuven.be/english/) :belgium:. I have been a (research) intern at [Stanford](https://bmir.stanford.edu/), [EPFL](https://www.epfl.ch/labs/rfic/), and [Siemens](https://www.plm.automation.siemens.com/global/en/).
 
@@ -25,9 +25,9 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 
 **Conference & Journal Publications**
 
-- [**A meta-learning approach for genomic survival analysis**](<https://www.biorxiv.org/content/10.1101/2020.04.21.053918v1.abstract>)  
+- :new: [**A meta-learning approach for genomic survival analysis**](<https://www.nature.com/articles/s41467-020-20167-3>)  
   *Yeping Lina Qiu, [Hong Zheng](https://littlebitofdata.com/), **Arnout Devos**, Heather Selby, [Olivier Gevaert](http://med.stanford.edu/gevaertlab.html)*  
-  (Accepted to appear in) Nature Communications, 2020
+  Nature Communications, Volume 11, 2020
 
 - [**[Re] Meta-learning with differentiable closed-form solvers**](<http://rescience.github.io/bibliography/Devos_2019.html>)  
   ***Arnout Devos**\*, Sylvain Chatel\*, [Matthias Grossglauser](https://icapeople.epfl.ch/grossglauser/)*  
@@ -38,7 +38,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 
 **Workshop Papers**
 
-- [**Model-Agnostic Learning to Meta-Learn**](<https://arxiv.org/abs/2012.02684>)  
+- :new: [**Model-Agnostic Learning to Meta-Learn**](<https://arxiv.org/abs/2012.02684>)  
   ***Arnout Devos**\*, [Yatin Dandi](https://yatindandi.github.io/)\**  
   NeurIPS Pre-registration Workshop, 2020
 - [**Regression Networks for Meta-Learning Few-Shot Classification**](<https://arxiv.org/abs/1905.13613>)  
