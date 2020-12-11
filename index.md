@@ -20,7 +20,7 @@ Don't hesitate to drop me an email at [arnout.devos@epfl.ch](mailto:arnout.devos
 - :computer: Nov 2019: 1st place in Computer Vision challenge @LauzHack 2018 [[devpost](<https://devpost.com/software/reducing-food-waste-with-hungry-students>)]
 --->
 
-## Research (see <a href="https://scholar.google.be/citations?user=S_6zsEwAAAAJ" style="text-decoration: none">google scholar</a> for up-to-date list)
+## Research (see <a href="https://scholar.google.be/citations?user=S_6zsEwAAAAJ&view_op=list_works&sortby=pubdate" style="text-decoration: none">google scholar</a> for up-to-date list)
 \* Denotes equal contribution
 
 **Conference & Journal Publications**
